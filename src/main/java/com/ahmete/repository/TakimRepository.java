@@ -86,7 +86,6 @@ public class TakimRepository implements ICRUD<Takim> {
 		Long createat=rs.getLong("createat");
 		Long updateat=rs.getLong("updateat");
 		
-		
 		return new Takim(id, takim_ad, LocalDate.parse(kurulus_tarihi), state, createat, updateat);
 	}
 	

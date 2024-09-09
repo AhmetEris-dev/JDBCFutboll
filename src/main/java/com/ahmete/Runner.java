@@ -1,6 +1,8 @@
 package com.ahmete;
 
+import com.ahmete.entity.Oyuncu;
 import com.ahmete.entity.Takim;
+import com.ahmete.repository.OyuncuRepository;
 import com.ahmete.repository.TakimRepository;
 
 import java.time.LocalDate;
@@ -23,9 +25,32 @@ public class Runner {
 //		}
 //		takimRepository.update(guncellenecekTakim.get());
 	
-		takimRepository.findAll().forEach(System.out::println);
-		takimRepository.findById(1).ifPresent(System.out::println);
+//		takimRepository.findAll().forEach(System.out::println);
+//		takimRepository.findById(1).ifPresent(System.out::println);
+		
+		OyuncuRepository oyuncuRepository=new OyuncuRepository();
+		Oyuncu oyuncu1=new Oyuncu(1,"Ahmet","Eris",LocalDate.of(1997,1,9));
+		Oyuncu oyuncu2=new Oyuncu(1,"Emine","karabolat",LocalDate.of(1997,5,15));
+		Oyuncu oyuncu3=new Oyuncu(1,"Berkay","Başrol",LocalDate.of(1997,3,16));
+		Oyuncu oyuncu4=new Oyuncu(2,"Alper","Güler",LocalDate.of(1997,3,16));
+//		oyuncuRepository.save(oyuncu4);
+//		oyuncuRepository.deleteById(2);
+		
+		
+//		Optional<Oyuncu> guncellenecekOyuncu=oyuncuRepository.findById(1);
+//		if(guncellenecekOyuncu.isPresent()){
+//			guncellenecekOyuncu.get().setSoyad("Özer");
+//		}
+//		oyuncuRepository.update(guncellenecekOyuncu.get());
+		
+//		oyuncuRepository.findAll().forEach(System.out::println);
+		
+//		oyuncuRepository.findById(3).ifPresentOrElse(System.out::println,()-> System.out.println("aradıgınız idli musteri " +
+//				                                                                             "bulunamadı"));
+//
+		
+		
+		
 	}
-
 	
 }

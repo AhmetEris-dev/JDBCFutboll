@@ -24,7 +24,7 @@ public class DatabaseHelper {
 	private void closeConnection(){
 		try {
 			if (!connection.isClosed()) {
-				connection.close();} // eğer bağlantı kapalı değğilse , acıksa
+				connection.close();}
 			
 		}
 		catch (SQLException e) {

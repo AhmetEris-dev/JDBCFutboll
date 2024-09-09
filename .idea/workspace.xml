@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98cfdb25-2805-4aa2-b52c-e1a19453d368" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/Futboll.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/entity/Oyuncu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/entity/Takim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/DatabaseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/ICRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/OyuncuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/TakimRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/utility/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="98cfdb25-2805-4aa2-b52c-e1a19453d368" name="Changes" comment="entity,utility,repository package ları oluşturuldu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmete/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmete/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/OyuncuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/OyuncuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/TakimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ahmete/repository/TakimRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +71,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
@@ -120,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725881891804</updated>
-      <workItem from="1725881892965" duration="8498000" />
+      <workItem from="1725881892965" duration="15267000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -130,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725882859043</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="entity,utility,repository package ları oluşturuldu">
+      <option name="closed" value="true" />
+      <created>1725890940720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725890940720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="entity,utility,repository package ları oluşturuldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="entity,utility,repository package ları oluşturuldu" />
   </component>
 </project>
